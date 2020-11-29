@@ -1,6 +1,20 @@
 # Changelog
 
-## [1.23.0] - 2020-11-??
+## [1.23.1] - 2020-11-??
+
+This point release is mostly just a rebuild to correct an oversight which caused
+older Macs to be unable to run the new version. If you encountered a problem
+with `liblzma` on mac os 10.13 then this version should solve that for you.
+
+In addition, the illumos binary is now part of the release properly.
+
+Thanks go to:
+
+- Jeroen Ooms
+- Jake Goulding
+- Joshua M. Clulow
+
+## [1.23.0] - 2020-11-27
 
 The main points for this release are that `rustup` now supports a number of new
 host platforms, most importantly of which is `aarch64-apple-darwin` for the new
